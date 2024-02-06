@@ -1,0 +1,24 @@
+div {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.fulldata , .fav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+} 
+
+img{
+    width: 45%;
+    height:fit-content;
+}
